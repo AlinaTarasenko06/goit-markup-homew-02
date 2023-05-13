@@ -1,0 +1,147 @@
+:root{
+    --title-color: #ffffff
+
+}
+
+body {
+    font-family: 'Roboto Medium', sans-serif;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.header-link{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-address-link{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.hero-button{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,5;
+        align-items: center;
+        letter-spacing: 0.04em; 
+        color: var(--title-color);
+}
+
+.hero-one{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1,07;
+        text-align: center;
+        letter-spacing: 0.02em;
+color: var(--title-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.about-name{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.about-work{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.hero-two{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,1;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.hero-three{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,1;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.human-hero{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1,2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.human-work{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.footer-information{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}

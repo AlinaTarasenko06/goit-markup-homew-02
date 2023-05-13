@@ -5,66 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="header-logo link" href="./index.html">WebStudio</a>
+        <ul class="header-list list">
+          <li class="header-item">
+            <a class="header-link link" href="">Studio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
 
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="header-address">
+        <ul class="header-address list">
+          <li>
+            <a class="header-address-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-address-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section-one">
+        <h1 class="hero-one">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button">Order Service</button>
       </section>
-      <section>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="about">
+        <h2 class="visually-hidden">Work</h2>
+        <ul class="section-two list">
+          <li class="about-list">
+            <h3 class="about-name">Strategy</h3>
+            <p class="about-work">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="about-list">
+            <h3 class="about-name">Punctuality</h3>
+            <p class="about-work">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="about-list">
+            <h3 class="about-name">Diligence</h3>
+            <p class="about-work">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="about-list">
+            <h3 class="about-name">Technologies</h3>
+            <p class="about-work">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
+      <section class="section-pic">
+        <h2 class="hero-two">What are we doing</h2>
+        <ul class="section-three list">
+          <li class="phone-pic">
             <img
               src="./images/img1(1).jpg"
               alt="laptop"
@@ -72,7 +94,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="phone-pic">
             <img
               src="./images/img2(1).jpg"
               alt="phone"
@@ -80,7 +102,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="phone-pic">
             <img
               src="./images/img3(1).jpg"
               alt="phone2"
@@ -90,12 +112,12 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+      <section class="section-human">
+        <h2 class="hero-three">Our Team</h2>
+        <ul class="section-four list">
+          <li class="humah-tiem">
+            <h3 class="human-hero">Mark Guerrero</h3>
+            <p class="human-work">Product Designer</p>
             <img
               src="./images/img1h.jpg"
               alt="human1"
@@ -103,9 +125,9 @@
               height="260"
             />
           </li>
-          <li>
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+          <li class="humah-tiem">
+            <h3 class="human-hero">Tom Ford</h3>
+            <p class="human-work">Frontend Developer</p>
             <img
               src="./images/img2h.jpg"
               alt="human2"
@@ -113,9 +135,9 @@
               height="260"
             />
           </li>
-          <li>
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+          <li class="humah-tiem">
+            <h3 class="human-hero">Camila Garcia</h3>
+            <p class="human-work">Marketing</p>
             <img
               src="./images/img3h.jpg"
               alt="human3"
@@ -123,9 +145,9 @@
               height="260"
             />
           </li>
-          <li>
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+          <li class="humah-tiem">
+            <h3 class="human-hero">Daniel Wilson</h3>
+            <p class="human-work">UI Designer</p>
             <img
               src="./images/img4h.jpg"
               alt="human4"
@@ -136,9 +158,9 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <a href="./index.html">WebStudio</a>
-      <p>
+      <p class="footer-information">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
