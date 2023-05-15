@@ -184,7 +184,7 @@ font-family: 'Roboto';
 /*  tow list */
 
 .button-list-tow {
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -194,6 +194,8 @@ font-family: 'Roboto';
         text-align: center;
         letter-spacing: 0.04em;
         color: #4D5AE5;
+        background-color: #f4f4fd;
+        cursor: pointer;
 }
 
 .button-list-tow:hover {
