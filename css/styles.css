@@ -13,7 +13,7 @@ body {
 font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.5;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:#4d5ae5
@@ -23,8 +23,11 @@ color:#4d5ae5
 {
     color: #f4f4fd;
 }
-    
 
+.span-studio-one{
+    color: #2E2F42;
+}
+    
 
 .list{
     list-style: none;
@@ -64,8 +67,9 @@ background: #2E2F42;
 
 
 .hero-button{
-    background-color: #4D5AE5
-        font-family 'Roboto', sans-serif;
+    background-color: #4D5AE5;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -80,7 +84,7 @@ background: #2E2F42;
         font-style: normal;
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.17;
+        line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
 color: var(--title-color);
@@ -119,17 +123,23 @@ font-family: 'Roboto';
     color: #434455;
 }
 
+
 .hero-two{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
 }
+
+.section-human{
+background-color: #F4F4FD;
+}
+
 
 .hero-three{
     background-color: #F4F4FD;
@@ -161,14 +171,17 @@ font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
         color: #434455;
 }
 
+.humah-tiem {
+    color: var(--title-color);
+}
+
 .footer-information{
-    font-family: "Raleway", sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
