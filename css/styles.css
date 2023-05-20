@@ -6,9 +6,9 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
-    color: #434455
+    color: #434455;
 }
-
+/* HEADER LOGO*/
 .header-logo{
 font-family: "Raleway", sans-serif;
 font-weight: 800;
@@ -16,6 +16,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none;
 color:#4d5ae5
 }
 
@@ -37,11 +38,13 @@ color:#4d5ae5
     text-decoration: none;
 }
 
+/* HEADER*/
+
 .header-address{
     font-style: normal
 }
 
-.header-link{
+.header-link:hover:focus {
 font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -61,12 +64,14 @@ font-family: 'Roboto';
         color: #434455;
 }
 
+/* SECTION HTML */
+
 .section-one{
 background: #2E2F42;
 }
 
 
-.hero-button{
+.hero-button:hover:focus{
     background-color: #4D5AE5;
         font-family: 'Roboto', sans-serif;
         cursor: pointer;
@@ -111,6 +116,7 @@ font-family: 'Roboto';
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    background-color: #FFFFFF
 }
 
 .about-work{
@@ -123,6 +129,7 @@ font-family: 'Roboto';
     color: #434455;
 }
 
+/* SECTION 2 */
 
 .hero-two{
     font-family: 'Roboto';
@@ -135,6 +142,8 @@ font-family: 'Roboto';
         text-transform: capitalize;
         color: #2E2F42;
 }
+
+/* SECTION 3 */
 
 .section-human{
 background-color: #F4F4FD;
@@ -178,8 +187,10 @@ background-color: #F4F4FD;
 }
 
 .humah-tiem {
-    color: var(--title-color);
+background-color: var(--title-color);
 }
+
+/* FOOTER */
 
 .footer-information{
         font-style: normal;
@@ -207,7 +218,7 @@ background-color: #F4F4FD;
         text-align: center;
         letter-spacing: 0.04em;
         color: #4D5AE5;
-        background-color: #f4f4fd;
+        background-color:#f4f4fd;
         cursor: pointer;
 }
 
@@ -221,8 +232,12 @@ background-color: #F4F4FD;
  color: var(--title-color);
 }
 
+.row-list{
+    text-decoration: none;
+}
+
 .horo-row{
-font-family: 'Roboto';
+font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
