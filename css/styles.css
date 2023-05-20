@@ -44,7 +44,7 @@ color:#4d5ae5
     font-style: normal
 }
 
-.header-link:hover:focus {
+.header-link :hover:focus {
 font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -71,7 +71,7 @@ background: #2E2F42;
 }
 
 
-.hero-button:hover:focus{
+.hero-button :hover:focus{
     background-color: #4D5AE5;
         font-family: 'Roboto', sans-serif;
         cursor: pointer;
@@ -222,7 +222,7 @@ background-color: var(--title-color);
         cursor: pointer;
 }
 
-.button-list-tow:hover {
+.button-list-tow :hover {
    background-color: #404bbf;
    content: var(--title-color);
 }
