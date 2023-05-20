@@ -52,6 +52,13 @@ font-family: 'Roboto';
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+
+}
+.header-link:hover{
+    color: #404BBF;
+}
+.header-link:focus{
+color: #404BBF;
 }
 
 .header-address-link{
@@ -62,6 +69,12 @@ font-family: 'Roboto';
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+.header-address-link:hover{
+    color: #404BBF;
+}
+.header-address-link:focus{
+color: #404BBF;
 }
 
 /* SECTION HTML */
@@ -82,6 +95,12 @@ background: #2E2F42;
         align-items: center;
         letter-spacing: 0.04em; 
         color: var(--title-color);
+}
+.hero-butto:hover{
+background-color: #404BBF
+}
+.hero-butto:focus{
+background-color: #404BBF
 }
 
 .hero-one{
