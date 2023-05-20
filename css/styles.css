@@ -44,7 +44,7 @@ color:#4d5ae5
     font-style: normal
 }
 
-.header-link :hover:focus {
+.header-link{
 font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -71,7 +71,7 @@ background: #2E2F42;
 }
 
 
-.hero-button :hover:focus{
+.hero-button{
     background-color: #4D5AE5;
         font-family: 'Roboto', sans-serif;
         cursor: pointer;
