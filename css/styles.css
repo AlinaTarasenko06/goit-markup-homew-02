@@ -1,5 +1,5 @@
 :root{
-    --title-color: #ffffff
+    --title-color: #ffffff;
 
 }
 
@@ -114,7 +114,8 @@ background-color: #404BBF
 color: var(--title-color);
 }
 
-.visually-hidden {
+
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -126,7 +127,8 @@ color: var(--title-color);
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
+
 .about-name{
 font-family: 'Roboto';
     font-style: normal;
