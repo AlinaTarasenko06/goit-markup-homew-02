@@ -40,7 +40,8 @@ color: var(--iris-color);
 }
 
 .link{
-    text-decoration: none;
+    text-decoration:none;
+    
 }
 
 /* HEADER*/
@@ -246,7 +247,7 @@ background-color: var(--title-color);
         color: var(--iris-color);
         background-color:var(--cloud-color);
         cursor: pointer;
-        text-decoration: none;
+      
 }
 
 .button-list-tow:hover {
