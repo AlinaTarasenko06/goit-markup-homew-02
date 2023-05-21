@@ -24,6 +24,7 @@ text-decoration: none;
 color: var(--iris-color);
 }
 
+
 .span-studio
 {
     color:var(--cloud-color);
@@ -59,14 +60,14 @@ font-family: 'Roboto';
 
 }
 .header-link:hover{
-    background-color:var(--ocean-color);
+    color:var(--ocean-color);
 }
 .header-link:focus{
-background-color:var(--ocean-color);
+    color:var(--ocean-color);
 }
 
 .header-address-link{
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto',sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -245,11 +246,12 @@ background-color: var(--title-color);
         color: var(--iris-color);
         background-color:var(--cloud-color);
         cursor: pointer;
+        text-decoration: none;
 }
 
 .button-list-tow:hover {
    background-color: var(--ocean-color);
-   content: var(--title-color);
+   color: var(--title-color);
 }
 
 .button-list-tow:focus {
