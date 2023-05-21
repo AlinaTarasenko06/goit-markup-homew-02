@@ -102,12 +102,13 @@ background:var(--navy-color);
         letter-spacing: 0.04em; 
         color: var(--title-color);
 }
-.hero-butto:hover{
-background-color:var(--ocean-color);
+.hero-button:hover{
+background-color: var(--ocean-color);
 }
-.hero-butto:focus{
-background-color:var(--ocean-color);
+.hero-button:focus{
+background-color: var(--ocean-color);
 }
+
 
 .hero-one{
     font-family: 'Roboto';
@@ -152,7 +153,7 @@ font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
-        text-align: center;
+        
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:var(--navy-color);
@@ -172,7 +173,7 @@ background-color:var(--cloud-color);
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
-        text-align: center;
+        
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--navy-color);
@@ -185,7 +186,7 @@ background-color:var(--cloud-color);
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        text-align: center;
+        
         letter-spacing: 0.02em;
         color:var(--navy-color);
 }
@@ -196,7 +197,7 @@ background-color:var(--cloud-color);
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-        text-align: center;
+        
         letter-spacing: 0.02em;
         color:var(--slate-color);
 }
@@ -229,8 +230,6 @@ background-color: var(--title-color);
         font-size: 16px;
         line-height: 1.5;
         display: flex;
-        align-items: center;
-        text-align: center;
         letter-spacing: 0.04em;
         color: var(--iris-color);
         background-color:var(--cloud-color);
